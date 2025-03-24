@@ -1,9 +1,9 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2408.06899-b31b1b.svg)](https://arxiv.org/abs/2408.06899) [![DOI:10.48550/ARXIV.2408.06899](https://zenodo.org/badge/doi/10.48550/ARXIV.2408.06899.svg)](https://doi.org/10.48550/arXiv.2408.06899)
+[![arXiv](https://img.shields.io/badge/arXiv-2408.06899-b31b1b.svg)](https://arxiv.org/abs/2408.06899) [![DOI:10.48550/ARXIV.2408.06899](https://zenodo.org/badge/doi/10.48550/ARXIV.2408.06899.svg)](https://doi.org/10.48550/arXiv.2408.06899) [![DOI:10.1117/12.3055033](https://zenodo.org/badge/doi/10.1117/12.3055033.svg)](https://doi.org/10.1117/12.3055033)
 
 # EEPPR: Event-based Estimation of Periodic Phenomena Rate using Correlation in 3D
 Kolář, J., Špetlík, R., Matas, J. (2024) EEPPR: Event-based Estimation of Periodic Phenomena Frequency using 3D Correlation. In Proceedings of the 17th International Conference on Machine Vision, 2024
 
-Paper Link: [arXiv](https://arxiv.org/abs/2408.06899v1)
+Paper Link: [SPIE](https://doi.org/10.1117/12.3055033)
 Poster: [PDF](https://drive.google.com/file/d/1qIWbmFmbKt22JVjVxwC0HtW3V-tC9oYQ/view?usp=sharing)
 
 ## Dataset
@@ -262,14 +262,19 @@ If problems persist, please open an issue with details about your setup and the 
 The code and dataset are provided under the GPL-3.0 license. Please refer to the LICENSE file for details.
 We encourage you to use them responsibly and cite the paper if you use it in your work:
 ```
-@article{kol2024eeppr,
-    title={EEPPR: Event-based Estimation of Periodic Phenomena Frequency using 3D Correlation},
-    author={Jakub Kolář and Radim Špetlík and Jiří Matas},
-    year={2024},
-    month=aug,
-    eprint={2408.06899},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    doi={10.48550/ARXIV.2408.06899}
+@inproceedings{kolar2024eeppr,
+   author = {Jakub Kol{\'a}ř and Radim Špetl{\'i}k and Jiř{\'i} Matas},
+   title = {{EEPPR: event-based estimation of periodic phenomena rate using correlation in 3D}},
+   volume = {13517},
+   booktitle = {Seventeenth International Conference on Machine Vision (ICMV 2024)},
+   editor = {Wolfgang Osten},
+   organization = {International Society for Optics and Photonics},
+   publisher = {SPIE},
+   pages = {135170S},
+   keywords = {event camera, periodic phenomena, rotation, vibration},
+   year = {2025},
+   doi = {10.1117/12.3055033},
+   URL = {https://doi.org/10.1117/12.3055033}
 }
+
 ```
